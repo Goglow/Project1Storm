@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		835035812326C55500C4D6E2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835035802326C55500C4D6E2 /* DetailViewController.swift */; };
 		83D00969230D6D1F00AE74C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D00968230D6D1F00AE74C9 /* AppDelegate.swift */; };
 		83D0096B230D6D1F00AE74C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D0096A230D6D1F00AE74C9 /* ViewController.swift */; };
 		83D0096E230D6D1F00AE74C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D0096C230D6D1F00AE74C9 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		835035802326C55500C4D6E2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		83D00965230D6D1F00AE74C9 /* Project1Storm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1Storm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D00968230D6D1F00AE74C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83D0096A230D6D1F00AE74C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 			children = (
 				83D00968230D6D1F00AE74C9 /* AppDelegate.swift */,
 				83D0096A230D6D1F00AE74C9 /* ViewController.swift */,
+				835035802326C55500C4D6E2 /* DetailViewController.swift */,
 				83D0096C230D6D1F00AE74C9 /* Main.storyboard */,
 				83D0096F230D6D1F00AE74C9 /* Assets.xcassets */,
 				83D00971230D6D1F00AE74C9 /* LaunchScreen.storyboard */,
@@ -184,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				835035812326C55500C4D6E2 /* DetailViewController.swift in Sources */,
 				83D0096B230D6D1F00AE74C9 /* ViewController.swift in Sources */,
 				83D00969230D6D1F00AE74C9 /* AppDelegate.swift in Sources */,
 			);
@@ -323,6 +327,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53FLK3FCZ4;
 				INFOPLIST_FILE = Project1Storm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Goglow.Project1Storm;
@@ -337,6 +342,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53FLK3FCZ4;
 				INFOPLIST_FILE = Project1Storm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Goglow.Project1Storm;
